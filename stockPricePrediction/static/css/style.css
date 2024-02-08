@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#page1{
+    width: 100%;
+    height: 95%;
+    color: #fff;
+    
+}
+#page1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#midnav{
+    padding-left: 30px;
+}
+#midnav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 8px;
+}
+#rnav{
+    padding-right: 15px;
+}
+#rnav i{
+    color: #fff;
+    font-size: 19px;
+}
+#centerText{
+   position: absolute;
+   top: 40%;
+   left: 5%;
+}
+#centerText h4{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 5px;
+    
+}
+.search{
+    background-color: #fff;
+    width: 20%;
+    height: 7%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    border-radius: 15px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page2{
+    width: 100%;
+    height: 150%;
+    background-color: #000;
+    color: #fff;
+}
+#page2 h1{
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    padding: 35px;
+}
+#page2 h5{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 35px;
+}
+#page2 #video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#video video{
+    height: 50%;
+    width: 50%;
+    border: 5px solid #D500F9;
+    
+}
+#title h4{
+    margin: 30px;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+#page3 #testmonial{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.card{
+    margin: 30px;
+    border: 1px solid #000;
+    width: 50%;
+    height: 80%;
+    text-align: left;
+    padding: 8px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+   
+}
+.content p{
+    font-size: 20px;
+}
+#testmonial::-webkit-scrollbar{
+    display: none;
+}
+#title h4{
+   text-align: center;
+   font-size: 30px;
+}
+.image img{
+    width: 100%;
+    height: 50%;
+}
+#news-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
